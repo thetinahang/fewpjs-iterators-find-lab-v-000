@@ -5,5 +5,5 @@ function testFunc() {
 }
 
 function superbowlWin(array) {
-  return array.find( o => o[year] === "W")
+  return array.find( o => o[year] === "W");
 }
