@@ -5,5 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(array) {
-  return array.find( o => o['year'] === "W")['year'];
+  win = array.find( o => o['result'] === "W");
+  return win[];
 }
