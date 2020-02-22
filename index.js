@@ -6,5 +6,5 @@ function testFunc() {
 
 function superbowlWin(array) {
   const win = array.find( o => o['result'] === "W");
-  return win['year'];
+  return win['year'] || undefined;
 }
